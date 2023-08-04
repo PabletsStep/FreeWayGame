@@ -14,4 +14,5 @@ function draw() {
   incluiPontos();
   marcaPonto();
   placarRecord();
+  //teste
 }
