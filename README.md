@@ -3,22 +3,22 @@
 ## :memo: Descrição
 Projeto feito para aprimorar meus conhecimentos em Javascript, e aprender mais sobre a biblioteca do p5.js.
 Link para acesso:
-* https://editor.p5js.org/pabletsplays/full/kc7enoCGD
+* https://editor.p5js.org/pabletsplays/full/ryCBhx1Tq
 
 ## :books: Como jogar?
-* Movimentamos as raquetes com as teclas 'w' e 'up' do teclado
+* Movimentamos a vaquinha com as setas do teclado.
 
 ## :wrench: Tecnologias utilizadas
 * Javascript
 
 ## :rocket: Rodando o projeto
-Para rodar o projeto acesse o link https://editor.p5js.org/pabletsplays/full/kc7enoCGD
+Para rodar o projeto acesse o link https://editor.p5js.org/pabletsplays/full/ryCBhx1Tq
 
 ## :handshake: Colaboradores
 <table>
   <tr>
     <td align="center">
-      <a href="http://github.com/tatialveso">
+      <a href="http://github.com/pabletsstep">
         <img src="https://avatars.githubusercontent.com/u/139282386?v=4" width="100px;" alt="Foto de Pablo Andrade Git Hub"/><br>
         <sub>
           <b>Pablo Andrade</b>
