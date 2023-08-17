@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(500, 400);
-  somDaTrilha.loop();
+  //somDaTrilha.pause();
 }
 
 function draw() {
@@ -14,5 +14,5 @@ function draw() {
   incluiPontos();
   marcaPonto();
   placarRecord();
-  //teste
+  mostraIconeSom();
 }
