@@ -5,8 +5,35 @@ let colisao = false;
 let meusPontos = 0;
 let record = 0;
 
+//variaveis botao som
+let botaoSomX = 40;
+let botaoSomY = 5;
+let larguraBotaoX = 25;
+let larguraBotaoY = 25;
+let som = false;
+let botaoSomMudoX = 10
+let botaoSomMudoY = 5
+let larguraSomMudoX = 25
+let larguraSomMudoY = 25
+
 function mostraAtor() {
   image(imagemDoAtor, xAtor, yAtor, 30, 30);
+}
+
+function mostraIconeSom(){
+  image(imagemSom, botaoSomX, botaoSomY, larguraBotaoX, larguraBotaoY);
+}
+function mouseClicked() {
+  if(mouseX >= botaoSomX && mouseX <= botaoSomX + larguraBotaoX && mouseY >= botaoSomY && mouseY <= botaoSomY + larguraBotaoY){
+    if(som){
+      somDaTrilha.pause();
+      som = false;
+    } else {
+      somDaTrilha.loop();
+      som = true;
+    }
+  }
+  
 }
 
 function movimentaAtor() {
